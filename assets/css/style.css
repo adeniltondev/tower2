@@ -575,7 +575,7 @@ label {
 	min-height: 300px;
 	background-position: center;
 	background-size: cover;
-	background-image:url(../img/testimonial/test-bg.jpg);
+	background-image:url(../img/topopaginaservico.png);
 }
 .breadcrumb {
 	display: inline-block;
@@ -5005,6 +5005,14 @@ padding:18px;
 	right: 0% !important;
 }
 .topo-servico::before{
+	content: "";
+    background: #00000066;
+    width: 100%;
+    height: 48%;
+    position: absolute;
+    left: 0px;
+}
+.breadcrumb-area::before{
 	content: "";
     background: #00000066;
     width: 100%;
