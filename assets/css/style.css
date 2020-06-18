@@ -101,7 +101,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'AcreMedium';
+	/* font-family: 'AcreMedium'; */
 	color: #252525;
 	margin-top: 0px;
 	font-style: normal;
@@ -5080,4 +5080,18 @@ padding:18px;
 }
 .left{
 	left: -143px;
+}
+.tamanho-card{
+	height: 431px;
+}
+.tamanho-card h2{
+	margin-top: 90px;
+	font-weight: 900;
+    font-size: 21px !important;
+}
+.tamanho-card p{
+	font-weight: 300;
+    color: black;
+	font-size: 16px;
+	line-height: 23px;
 }
