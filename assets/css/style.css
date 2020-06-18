@@ -5020,3 +5020,64 @@ padding:18px;
     position: absolute;
     left: 0px;
 }
+
+.property-info-section .carousel-outer{
+	position:relative;
+}
+
+.property-info-section .carousel-outer li img{
+	position:relative;
+	display:block;
+	width:100%;
+}
+
+.property-info-section .carousel-outer .owl-controls{
+	margin:0px !important;	
+}
+
+.property-info-section .carousel-outer .owl-nav{
+	display:none !important;	
+}
+
+.property-info-section .carousel-outer .owl-dots{
+	position:absolute;
+	right:15px;
+	bottom:15px;
+	text-align:right;	
+}
+
+.property-info-section .carousel-outer .owl-dots .owl-dot span{
+	position:relative !important;
+	display:block;
+	width:8px;
+	height:8px;
+	margin:0px 5px;
+	background:#acada7;
+	border-radius:50%;
+}
+
+.property-info-section .carousel-outer .owl-dots .owl-dot:hover span:after,
+.property-info-section .carousel-outer .owl-dots .owl-dot.active span:after{
+	content:'';
+	position:absolute;
+	left:-4px;
+	top:-4px;
+	width:16px;
+	height:16px;
+	border:2px solid #acada7;
+	border-radius:50%;
+}
+
+.property-info-section .carousel-outer .owl-dots .owl-dot:hover span,
+.property-info-section .carousel-outer .owl-dots .owl-dot.active span{
+	background:#ffffff;	
+}
+.bg-branco{
+	background: #fff;
+}
+.right{
+	right: 0% !important;
+}
+.left{
+	left: -143px;
+}
