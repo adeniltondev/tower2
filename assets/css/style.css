@@ -2730,6 +2730,7 @@ margin-bottom: 30px;
 	padding: 20px 40px;
 	transition: .3s;
 	box-shadow: 0 0 5px #d8d8d8;
+	border-radius: 5px;
 	/* border: 1px solid #dfdfdf; */
 }
 .contact-field select {
@@ -2739,7 +2740,11 @@ margin-bottom: 30px;
 	padding: 20px 40px;
 	transition: .3s;
 	box-shadow: 0 0 5px #d8d8d8;
+	border-radius: 5px;
 	/* border: 1px solid #dfdfdf; */
+}
+.contact-field select{
+    outline:none;
 }
 .contact-field.c-name::after{content: "\f007";}
 .contact-field::after {
@@ -2772,6 +2777,7 @@ margin-bottom: 30px;
 	box-shadow: 0 0 5px #d8d8d8;
 	/* border: 1px solid #dfdfdf; */
 	height: 240px;
+	border-radius: 5px;
 }
 .contact-bg {
 	background-size: cover;
