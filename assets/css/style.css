@@ -606,7 +606,7 @@ label {
 	content: ">";
 }
 .breadcrumb-title h2 {
-	font-size: 70px;
+	font-size: 30px;
 	margin-bottom: 25px;
 	line-height: 1;
 	color: #fff;
@@ -4881,7 +4881,8 @@ padding:18px;
 
 .single-property .main-image img{
 	display:block;
-	width:100%;	
+	width:100%;
+	border-radius: 5px;	
 }
 
 .single-property .content{
@@ -4920,6 +4921,7 @@ padding:18px;
 .property-gallery .gallery-column .image-box img{
 	display:block;
 	width:100%;
+	border-radius: 5px;
 }
 
 .property-gallery .gallery-column .overlay-box{
@@ -4967,9 +4969,10 @@ padding:18px;
 }
 
 .single-property .info-box{
-	position:relative;
-	padding:20px;
-	border:1px solid #e7e7e7;	
+	position: relative;
+    padding: 20px;
+    border: 4px solid #d29751;
+    border-radius: 5px;
 }
 
 .single-property .info-box h4{
@@ -5127,4 +5130,17 @@ padding:18px;
     background-size: contain;
 	background-repeat: no-repeat;
 	padding: auto !important;
+}
+.ambiente{
+	font-weight: 800;
+	font-size: 28px !important;
+    padding-top: 23px;
+}
+.escolha{
+	font-weight: 300;
+	text-align: justify;
+	line-height: 23px;
+}
+.conheca{
+	font-weight: 800;
 }
