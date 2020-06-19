@@ -356,7 +356,9 @@ label {
 	margin: 7px 0;
 	transition: .3s;
 }
-.main-menu ul li:hover > a{color: #3c3935;}
+.main-menu ul li:hover > a{
+	color: #f4f4fe;
+}
 .main-menu ul li:hover > a::before{width: 100%;}
 .display-ib{display: inline-block;}
 .header-btn{margin-left: -40px;}
@@ -4265,7 +4267,7 @@ padding:18px;
 
 .whatsapp{
 	width: 14%;
-    background-color: #4cd9a6;
+    background-color: #424242;
     text-align: center;
     position: fixed;
     bottom: 0px;
