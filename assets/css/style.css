@@ -987,7 +987,7 @@ label {
 	margin-bottom: 20px;
 }
 .section-title h2 {
-	font-size: 55px;
+	font-size: 30px;
 	padding-bottom: 30px;
 	margin-bottom: 0px;
 	position: relative;
@@ -1222,7 +1222,10 @@ margin-bottom: 0;
 .s-single-services:hover .second-services-content h5{color: #d29751;}
 .s-single-services:hover .second-services-content a{color: #d29751;}
 
-.s-single-services.active {border-color: #fff7ee; background:#fff7ee;}
+.s-single-services.active {
+	border-color: #3c3935;
+    background: #3c3935;
+}
 .s-single-services.active .services-icon i{color:#d29751;}
 .s-single-services.active .second-services-content h5{color: #d29751;}
 .s-single-services.active .second-services-content a{color: #d29751;}
@@ -4555,13 +4558,18 @@ padding:18px;
 	color:#ffffff;	
 }
 .titulosalas{
-	width: 51%;
-	margin: auto;
-	padding-bottom: 30px;
+    width: 48%;
+    margin: auto;
+    padding-bottom: 30px;
+    font-size: 30px;
 }
 .subsalas{
-	width: 65%;
+    width: 72%;
     margin: auto;
+    font-weight: 300;
+    color: black;
+    font-size: 16px;
+    line-height: 21px;
 }
 .boxed-property-column .inner-box .text-outer .btn-style-two {
     padding: 10px 25px;
