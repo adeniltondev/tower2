@@ -242,6 +242,10 @@ label {
 	white-space: nowrap;
 	position: relative;
 }
+.btn:hover{
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    opacity: .7;
+}
 
 .btn:hover{color: #fff;}
 .btn:hover::before{opacity: 0;}
@@ -326,7 +330,7 @@ label {
 .main-menu ul li a {
 	display: block;
 	color: #fff;
-	font-family: 'AcreMedium';
+	/* font-family: 'AcreMedium'; */
 	font-weight: 500;
 	padding: 34px 0;
 	position: relative;
@@ -4551,7 +4555,7 @@ padding:18px;
 	color:#ffffff;	
 }
 .titulosalas{
-	width: 46%;
+	width: 51%;
 	margin: auto;
 	padding-bottom: 30px;
 }
@@ -5090,6 +5094,12 @@ padding:18px;
     font-size: 21px !important;
 }
 .tamanho-card p{
+	font-weight: 300;
+    color: black;
+	font-size: 16px;
+	line-height: 23px;
+}
+.cliente{
 	font-weight: 300;
     color: black;
 	font-size: 16px;
