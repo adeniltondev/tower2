@@ -2564,6 +2564,7 @@ margin-bottom: 0;
 }
 .contact-info p{
 	color:#fff;
+	font-weight: 300;
 }
 .contact-info h5{
 	color:#d29751;
@@ -4536,13 +4537,13 @@ padding:18px;
 .boxed-property-column .inner-box .text-outer h3{
 	font-size:16px;
 	margin-bottom:10px;
-	text-transform:uppercase;
+	/* text-transform:uppercase; */
 	color:#1a1a1a;
 }
 
 .boxed-property-column .inner-box .text-outer .desc{
 	margin-bottom:25px;
-	line-height:2.2em;
+	line-height:21px;
 }
 
 .boxed-property-column .inner-box:hover .text-outer .btn-style-two{
