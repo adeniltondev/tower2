@@ -5113,3 +5113,9 @@ padding:18px;
 	font-size: 16px;
 	line-height: 23px;
 }
+.baclaboratorio{
+	background: url(../img/laboratoriounimed.png);
+    background-size: contain;
+	background-repeat: no-repeat;
+	padding: auto !important;
+}
