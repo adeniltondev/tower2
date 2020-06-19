@@ -4659,7 +4659,7 @@ padding:18px;
 
 .rounded-icon-column h3{
 	font-size:13px;
-	text-transform:uppercase;
+	/* text-transform:uppercase; */
 	color:#1a1a1a;
 	margin-bottom:10px;	
 }
