@@ -5151,3 +5151,95 @@ padding:18px;
 	width: 108%;
     height: 100%;
 }
+/*** 
+
+====================================================================
+	Fluid Features Section
+====================================================================
+
+***/
+
+.features-section-fluid{
+	position:relative;
+	width:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background: url(../img/laboratoriounimed.png);	
+}
+
+.features-section-fluid .columns-outer{
+	position:relative;
+	padding:40px 50px;
+	background:rgba(255,255,255,0.90);
+	width:75%;
+	left: -15px;
+}
+
+.features-section-fluid .column{
+	position:relative;
+	float:left;
+	width:33.333%;
+	padding:40px 40px;	
+}
+
+.features-section-fluid .column .icon-box{
+	position:relative;
+	margin-bottom:20px;
+	font-size:42px;
+	color:#52c629;
+}
+
+.features-section-fluid .column h3{
+	position:relative;
+	font-size:14px;
+	text-transform:uppercase;
+	color:#1a1a1a;
+	margin-bottom:10px;
+}
+
+.features-section-fluid .column .text{
+	position:relative;
+	color:#1a1a1a;
+}
+
+.features-section-fluid .column .text p{
+	margin-bottom:20px;	
+}
+
+.features-section-fluid .curves-outer{
+	position:absolute;
+	right:-80px;
+	top:0px;
+	width:80px;
+	height:100%;
+	overflow:hidden;	
+}
+
+.features-section-fluid .upper-curve{
+	position:absolute;
+	left:-55px;
+	top:0px;
+	width:100px;
+	height:53.8%;
+	background:rgba(255,255,255,0.90);
+	-webkit-transform:rotate(165deg);
+	-ms-transform:rotate(165deg);
+	-o-transform:rotate(165deg);
+	-moz-transform:rotate(165deg);
+	transform:rotate(165deg);
+}
+
+.features-section-fluid .lower-curve{
+	position:absolute;
+	left:-55px;
+	bottom:0px;
+	width:100px;
+	height:53.8%;
+	background:rgba(255,255,255,0.90);
+	-webkit-transform:rotate(-165deg);
+	-ms-transform:rotate(-165deg);
+	-o-transform:rotate(-165deg);
+	-moz-transform:rotate(-165deg);
+	transform:rotate(-165deg);
+}
