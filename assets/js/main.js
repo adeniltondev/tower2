@@ -316,6 +316,7 @@ new WOW().init();
 $(document).ready(function(){
 	$('.owl-carousel').owlCarousel({
 		// margin:10,
+		autoplay:true,
 		loop:true,
 		autoWidth:true,
 		items:1
