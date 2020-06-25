@@ -4665,12 +4665,12 @@ padding:18px;
 }
 
 .rounded-icon-column h3{
-	font-size:13px;
-	/* text-transform:uppercase; */
-	color:#1a1a1a;
-	margin-bottom:10px;	
+    font-size: 21px;
+    /* text-transform: uppercase; */
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    font-weight: 800;
 }
-
 .rounded-icon-column .inner-box .icon{
 	position:relative;
 	font-size:30px;
@@ -4736,6 +4736,7 @@ padding:18px;
 	-o-transition:all 500ms ease;
 	-moz-transition:all 500ms ease;		
 	width: 75%;
+	margin: auto;
 }
 
 .team-member .inner-box:hover{
