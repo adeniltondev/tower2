@@ -4326,7 +4326,7 @@ padding:18px;
 	background-size:cover;
 	background-position:center center;
 	background-repeat:no-repeat;
-	background: url(../img/recepcaoampla.png);
+	/* background: url(../img/recepcaoampla.png); */
 }
 
 .property-info-section.style-two{
@@ -4341,7 +4341,7 @@ padding:18px;
 .property-info-section .content-column{
 	position:relative;
 	z-index:2;
-	right: -52%;
+	/* right: -52%; */
 	padding-top:50px;	
 }
 
@@ -4567,7 +4567,7 @@ padding:18px;
 	color:#ffffff;	
 }
 .titulosalas{
-    width: 48%;
+    width: 43%;
     margin: auto;
     padding-bottom: 30px;
     font-size: 30px;
@@ -5143,4 +5143,11 @@ padding:18px;
 }
 .conheca{
 	font-weight: 800;
+}
+.recepcaohome{
+	padding: 0px !important;
+}
+.recepcaohomeampla{
+	width: 108%;
+    height: 100%;
 }
