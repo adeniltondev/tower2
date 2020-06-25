@@ -5171,7 +5171,7 @@ padding:18px;
 .features-section-fluid .columns-outer{
 	position:relative;
 	padding:40px 50px;
-	background:rgba(255,255,255,0.90);
+	background:rgba(210, 151, 81, 0.38);
 	width:75%;
 	left: -15px;
 }
@@ -5179,7 +5179,7 @@ padding:18px;
 .features-section-fluid .column{
 	position:relative;
 	float:left;
-	width:33.333%;
+	width:50.333%;
 	padding:40px 40px;	
 }
 
@@ -5190,21 +5190,24 @@ padding:18px;
 	color:#52c629;
 }
 
-.features-section-fluid .column h3{
+.features-section-fluid .column h2{
 	position:relative;
-	font-size:14px;
-	text-transform:uppercase;
-	color:#1a1a1a;
+	/* font-size:14px; */
+	color:#fff;
 	margin-bottom:10px;
 }
 
 .features-section-fluid .column .text{
-	position:relative;
-	color:#1a1a1a;
+	position: relative;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: justify;
 }
 
 .features-section-fluid .column .text p{
-	margin-bottom:20px;	
+	margin-bottom:20px;
+	font-family: 'Poppins', sans-serif;
 }
 
 .features-section-fluid .curves-outer{
@@ -5222,7 +5225,7 @@ padding:18px;
 	top:0px;
 	width:100px;
 	height:53.8%;
-	background:rgba(255,255,255,0.90);
+	background:rgba(210, 151, 81, 0.38);
 	-webkit-transform:rotate(165deg);
 	-ms-transform:rotate(165deg);
 	-o-transform:rotate(165deg);
@@ -5236,7 +5239,7 @@ padding:18px;
 	bottom:0px;
 	width:100px;
 	height:53.8%;
-	background:rgba(255,255,255,0.90);
+	background:rgba(210, 151, 81, 0.38);
 	-webkit-transform:rotate(-165deg);
 	-ms-transform:rotate(-165deg);
 	-o-transform:rotate(-165deg);
