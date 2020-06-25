@@ -4681,10 +4681,10 @@ padding:18px;
 	box-shadow:0px 0px 1px 2px #d29751;
 }
 .rounded-icon-column .inner-box .icon img{
-	width: 100px;
-    height: 100px;
+	width: 60px;
+    height: 60px;
     margin: auto;
-    left: -10px;
+    /* left: -10px; */
     position: relative;
 }
 
@@ -4695,7 +4695,7 @@ padding:18px;
 
 .rounded-icon-column .inner-box .text p{
 	font-size:13px;
-	line-height:2.4em;
+	line-height:16px;
 }
 /*** 
 
