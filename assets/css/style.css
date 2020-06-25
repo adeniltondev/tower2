@@ -1195,6 +1195,7 @@ margin-left: 20px;
 .services-two .s-single-services{
     float: left;
 	width: 100%;
+	border-radius: 5px;
 }
 .second-services-content h5 {
 	font-weight: 600;
