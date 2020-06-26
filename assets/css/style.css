@@ -5185,7 +5185,7 @@ padding:18px;
 .features-section-fluid .columns-outer{
     position: relative;
     padding: 56px 50px;
-    background: rgba(210, 151, 81, 0.38);
+    background: rgba(210, 151, 81, 0.66);
     width: 592px;
     left: -15px;
     z-index: 1;
@@ -5284,7 +5284,7 @@ padding:18px;
 	.features-section-fluid .columns-outer{
 		position: relative;
 		padding: 66px 50px;
-		background: rgba(210, 151, 81, 0.38);
+		background: rgba(210, 151, 81, 0.66);
 		width: 823px;
 		left: -15px;
 		z-index: 1;
