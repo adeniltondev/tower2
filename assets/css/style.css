@@ -5271,6 +5271,7 @@ padding:18px;
 }
 .branco h2{
 	color:#000;
+	margin-bottom: 50px;
 }
 .imglab{
     width: 100%;
@@ -5289,4 +5290,7 @@ padding:18px;
 		left: -15px;
 		z-index: 1;
 	}
+}
+.branco::before{
+	content: none !important;
 }
