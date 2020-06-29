@@ -288,8 +288,18 @@ label {
 	color: #8a8a8a;
 }
 .header-cta ul li {
-	display: inline-block;
+	display: inline;
 	margin-left: 35px;
+	color: #3c3935;
+    font-weight: 400;
+}
+.header-cta a{
+	color: #3c3935;
+    font-weight: 400;
+}
+.header-cta span{
+	color: #3c3935;
+    font-weight: 400;
 }
 .header-cta ul li:first-child{margin-left: 0;}
 .header-cta ul li i {
