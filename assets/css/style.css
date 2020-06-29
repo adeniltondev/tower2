@@ -4345,7 +4345,7 @@ padding:18px;
 	background-size:cover;
 	background-position:center center;
 	background-repeat:no-repeat;
-	/* background: url(../img/recepcaoampla.png); */
+	background: url(../img/recepcaoampla.png);
 }
 
 .property-info-section.style-two{
@@ -5146,8 +5146,9 @@ padding:18px;
 .cliente{
 	font-weight: 300;
     color: black;
-	font-size: 16px;
-	line-height: 23px;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: justify;
 }
 .baclaboratorio{
 	background: url(../img/laboratoriounimed.png);
@@ -5169,12 +5170,12 @@ padding:18px;
 	font-weight: 800;
 }
 .recepcaohome{
-	padding: 0px !important;
+	padding: 23px !important;
 }
 .recepcaohomeampla{
-	width: 108%;
+	/* width: 108%;
 	height: 100%;
-	border-radius: 5px;
+	border-radius: 5px; */
 }
 /*** 
 
@@ -5304,4 +5305,7 @@ padding:18px;
 }
 .branco::before{
 	content: none !important;
+}
+.right{
+   left: 55%;
 }
