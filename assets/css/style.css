@@ -5307,7 +5307,7 @@ padding:18px;
 	content: none !important;
 }
 .right{
-   left: 55%;
+   /* left: 55%; */
 }
 @media(min-width:360px) and (max-width:640px){
 	.breadcrumb-area::before {
@@ -5373,3 +5373,13 @@ padding:18px;
     position: absolute;
     left: 0px;
 }}
+.recepcaoamplahome{
+	position: relative;
+    right: 60px !important;
+}
+@media(min-width:1440px) and (max-width:2560px) {
+	.recepcaoamplahome{
+		right: 332px !important;
+	}
+
+}
