@@ -5052,22 +5052,22 @@ padding:18px;
 .nova-colunacard{
 	right: 0% !important;
 }
-.topo-servico::before{
+/* .topo-servico::before{
 	content: "";
     background: #00000066;
     width: 100%;
     height: 48%;
     position: absolute;
     left: 0px;
-}
-.breadcrumb-area::before{
+} */
+/* .breadcrumb-area::before{
 	content: "";
     background: #00000066;
     width: 100%;
     height: 48%;
     position: absolute;
     left: 0px;
-}
+} */
 
 .property-info-section .carousel-outer{
 	position:relative;
