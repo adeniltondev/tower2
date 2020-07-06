@@ -5389,7 +5389,7 @@ padding:18px;
 }
 @media(min-width:1440px) and (max-width:2560px) {
 	.recepcaoamplahome{
-		right: 332px !important;
+		right: -70% !important;
 	}
 
 }
