@@ -5476,4 +5476,20 @@ padding:18px;
 .choose-list ul li i{
 	margin-right: 7px !important;
 }
+.imglab {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: -8px;
+    right: -15px;
+    /* max-width: 808px; */
+    top: 11px;
+}
+.mobile{
+	display: none;
+}}
+@media(min-width:1050px) and (max-width:1920px){
+	.desktop{
+		display: none;
+	}
 }
