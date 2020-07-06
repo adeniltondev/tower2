@@ -4950,7 +4950,8 @@ padding:18px;
 
 .property-gallery .gallery-column{
 	position:relative;
-	margin-bottom:20px;	
+	margin-bottom:20px;
+	padding: 0px;
 }
 
 .property-gallery .gallery-column .inner-box{
@@ -5493,9 +5494,26 @@ padding:18px;
 }
 .mobile{
 	display: none;
-}}
+}
+.tamanho-card {
+    height: 471px;
+}
+.enderecomobile{
+	width: 94%;
+}
+}
 @media(min-width:1050px) and (max-width:1920px){
 	.desktop{
 		display: none;
 	}
 }
+@media(min-width:414px) and (max-width:736px){
+	.enderecomobile{
+		width: 81%;
+	}
+
+}
+@media (min-width: 375px) and (max-width: 667px){
+.enderecomobile {
+    width: 90%;
+}}
