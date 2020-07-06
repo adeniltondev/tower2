@@ -4354,7 +4354,7 @@ padding:18px;
 	background-size:cover;
 	background-position:center center;
 	background-repeat:no-repeat;
-	background: url(../img/recepcaoampla.png);
+	background: url(../img/amplahome.png);
 }
 
 .property-info-section.style-two{
@@ -4407,6 +4407,12 @@ padding:18px;
 .property-info-section .content-column .text{
 	position:relative;
 	margin-bottom:20px;
+}
+@media(min-width:1440px) and (max-width:2560px) {
+	.property-info-section{
+		background: url(../img/recepcaoampla.png);
+	}
+
 }
 .btn-style-three{
     background: #d29751;
@@ -5385,11 +5391,11 @@ padding:18px;
 }} */
 .recepcaoamplahome{
 	position: relative;
-    right: 60px !important;
+    left: 654px !important;
 }
 @media(min-width:1440px) and (max-width:2560px) {
-	.recepcaoamplahome{
-		right: -70% !important;
+	.recepcaoamplahome{ 
+		left: 814px !important;;
 	}
 
 }
