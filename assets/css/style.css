@@ -5522,6 +5522,18 @@ padding:18px;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.team-member .inner-box {
+    position: relative;
+    /* border: 1px solid #e0e0e0; */
+    /* background: #d29752; */
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    width: 100%;
+    margin: auto;
+}
 }
 @media(min-width:1050px) and (max-width:1920px){
 	.desktop{
@@ -5549,6 +5561,18 @@ padding:18px;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+	.team-member .inner-box {
+		position: relative;
+		/* border: 1px solid #e0e0e0; */
+		/* background: #d29752; */
+		transition: all 500ms ease;
+		-webkit-transition: all 500ms ease;
+		-ms-transition: all 500ms ease;
+		-o-transition: all 500ms ease;
+		-moz-transition: all 500ms ease;
+		width: 100%;
+		margin: auto;
+	}
 }
 @media (min-width: 375px) and (max-width: 667px){
 .enderecomobile {
@@ -5574,5 +5598,17 @@ padding:18px;
     background: url(../img/missaoevalores.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.team-member .inner-box {
+    position: relative;
+    /* border: 1px solid #e0e0e0; */
+    /* background: #d29752; */
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    width: 100%;
+    margin: auto;
 }
 }
