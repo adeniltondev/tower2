@@ -5534,6 +5534,14 @@ padding:18px;
     width: 100%;
     margin: auto;
 }
+.whatsapp {
+    width: 55%;
+}
+.recepcaoamplahome {
+    position: relative;
+    left: 0px !important;
+}
+
 }
 @media(min-width:1050px) and (max-width:1920px){
 	.desktop{
@@ -5573,6 +5581,15 @@ padding:18px;
 		width: 100%;
 		margin: auto;
 	}
+	.whatsapp {
+		width: 55%;
+	}
+	.recepcaoamplahome {
+		position: relative;
+		left: 0px !important;
+	}
+	
+	
 }
 @media (min-width: 375px) and (max-width: 667px){
 .enderecomobile {
@@ -5611,4 +5628,12 @@ padding:18px;
     width: 100%;
     margin: auto;
 }
+.whatsapp {
+    width: 55%;
+}
+.recepcaoamplahome {
+    position: relative;
+    left: 0px !important;
+}
+
 }
