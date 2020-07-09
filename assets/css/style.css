@@ -5521,7 +5521,8 @@ padding:18px;
   .bacmissao {
     background: url(../img/missaoevalores.png);
     background-repeat: no-repeat;
-    background-size: cover;
+	background-size: cover;
+	margin-top: -70px;
 }
 .team-member .inner-box {
     position: relative;
@@ -5586,6 +5587,7 @@ section.choose-area {
 		background: url(../img/missaoevalores.png);
 		background-repeat: no-repeat;
 		background-size: cover;
+		margin-top: -70px;
 	}
 	.team-member .inner-box {
 		position: relative;
@@ -5648,7 +5650,8 @@ section.choose-area {
 .bacmissao {
     background: url(../img/missaoevalores.png);
     background-repeat: no-repeat;
-    background-size: cover;
+	background-size: cover;
+	margin-top: -70px;
 }
 .team-member .inner-box {
     position: relative;
