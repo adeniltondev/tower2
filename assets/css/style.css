@@ -5541,7 +5541,12 @@ padding:18px;
     position: relative;
     left: 0px !important;
 }
-
+section#about {
+    margin-top: -78px;
+}
+section#services {
+    margin-top: -41px;
+}
 }
 @media(min-width:1050px) and (max-width:1920px){
 	.desktop{
@@ -5588,8 +5593,12 @@ padding:18px;
 		position: relative;
 		left: 0px !important;
 	}
-	
-	
+	section#about {
+		margin-top: -78px;
+	}
+	section#services {
+		margin-top: -41px;
+	}
 }
 @media (min-width: 375px) and (max-width: 667px){
 .enderecomobile {
@@ -5635,5 +5644,10 @@ padding:18px;
     position: relative;
     left: 0px !important;
 }
-
+section#about {
+    margin-top: -78px;
+}
+section#services {
+    margin-top: -41px;
+}
 }
