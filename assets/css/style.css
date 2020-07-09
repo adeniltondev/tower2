@@ -5554,6 +5554,9 @@ section.choose-area {
 .imalocalizacao{
 	margin-top: -83px !important;
 }
+section.choose-area {
+	height: 867px;
+}
 }
 @media(min-width:1050px) and (max-width:1920px){
 	.desktop{
@@ -5612,6 +5615,9 @@ section.choose-area {
 	.imalocalizacao{
 		margin-top: -83px !important;
 	}
+	section.choose-area {
+		height: 867px;
+	}
 }
 @media (min-width: 375px) and (max-width: 667px){
 .enderecomobile {
@@ -5668,5 +5674,8 @@ section.choose-area {
 }
 .imalocalizacao{
 	margin-top: -83px !important;
+}
+section.choose-area {
+	height: 867px;
 }
 }
