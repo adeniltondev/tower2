@@ -5340,6 +5340,7 @@ padding:18px;
 		margin: auto;
 		padding-bottom: 30px;
 		font-size: 30px;
+		margin-top: -32px;
 	}
 	.subsalas {
 		width: 100%;
@@ -5547,6 +5548,9 @@ section#about {
 section#services {
     margin-top: -41px;
 }
+section.choose-area {
+    margin-top: -99px;
+}
 }
 @media(min-width:1050px) and (max-width:1920px){
 	.desktop{
@@ -5599,6 +5603,9 @@ section#services {
 	section#services {
 		margin-top: -41px;
 	}
+	section.choose-area {
+		margin-top: -99px;
+	}
 }
 @media (min-width: 375px) and (max-width: 667px){
 .enderecomobile {
@@ -5649,5 +5656,8 @@ section#about {
 }
 section#services {
     margin-top: -41px;
+}
+section.choose-area {
+    margin-top: -99px;
 }
 }
