@@ -5574,6 +5574,9 @@ section.choose-area {
 .andamentotitulo{
 	margin-top: 59px;
 }
+.contato-servico{
+	margin-top: -100px;
+}
 }
 @media(min-width:1050px) and (max-width:1920px){
 	.desktop{
@@ -5652,6 +5655,9 @@ section.choose-area {
 	.andamentotitulo{
 		margin-top: 59px;
 	}
+	.contato-servico{
+		margin-top: -100px;
+	}
 }
 @media (min-width: 375px) and (max-width: 667px){
 .enderecomobile {
@@ -5728,5 +5734,8 @@ section.choose-area {
 }
 .andamentotitulo{
 	margin-top: 59px;
+}
+.contato-servico{
+	margin-top: -100px;
 }
 }
