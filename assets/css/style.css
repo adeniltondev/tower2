@@ -5565,6 +5565,15 @@ section.choose-area {
     position: relative;
     padding: 8px 0px 40px;
 }
+.tamanho-card-coberto{
+	height: 400px !important;
+}
+.tamanho-card-espaco{
+	height: 400px !important;
+}
+.andamentotitulo{
+	margin-top: 59px;
+}
 }
 @media(min-width:1050px) and (max-width:1920px){
 	.desktop{
@@ -5634,6 +5643,15 @@ section.choose-area {
 		position: relative;
 		padding: 8px 0px 40px;
 	}
+	.tamanho-card-coberto{
+		height: 400px !important;
+	}
+	.tamanho-card-espaco{
+		height: 400px !important;
+	}
+	.andamentotitulo{
+		margin-top: 59px;
+	}
 }
 @media (min-width: 375px) and (max-width: 667px){
 .enderecomobile {
@@ -5701,5 +5719,14 @@ section.choose-area {
 .team-section {
     position: relative;
     padding: 8px 0px 40px;
+}
+.tamanho-card-coberto{
+	height: 369px !important;
+}
+.tamanho-card-espaco{
+	height: 369px !important;
+}
+.andamentotitulo{
+	margin-top: 59px;
 }
 }
