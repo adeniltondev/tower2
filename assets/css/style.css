@@ -5577,6 +5577,15 @@ section.choose-area {
 .contato-servico{
 	margin-top: -100px;
 }
+.boxed-property-column.style-two .inner-box .text-outer {
+    left: 0px;
+    right: auto;
+    height: 100%;
+}
+.recepcaoambiente-margin{
+	margin-top: -119px;
+	margin-bottom: -106px;
+}
 }
 @media(min-width:1050px) and (max-width:1920px){
 	.desktop{
@@ -5658,6 +5667,15 @@ section.choose-area {
 	.contato-servico{
 		margin-top: -100px;
 	}
+	.boxed-property-column.style-two .inner-box .text-outer {
+		left: 0px;
+		right: auto;
+		height: 100%;
+	}
+	.recepcaoambiente-margin{
+		margin-top: -119px;
+		margin-bottom: -106px;
+	}
 }
 @media (min-width: 375px) and (max-width: 667px){
 .enderecomobile {
@@ -5730,12 +5748,21 @@ section.choose-area {
 	height: 369px !important;
 }
 .tamanho-card-espaco{
-	height: 369px !important;
+	height: 308px !important;
 }
 .andamentotitulo{
 	margin-top: 59px;
 }
 .contato-servico{
 	margin-top: -100px;
+}
+.boxed-property-column.style-two .inner-box .text-outer {
+    left: 0px;
+    right: auto;
+    height: 100%;
+}
+.recepcaoambiente-margin{
+	margin-top: -119px;
+	margin-bottom: -106px;
 }
 }
