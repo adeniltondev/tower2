@@ -25,6 +25,41 @@
     <!-- <link rel="stylesheet" href="/assets/css/flaticon.css"> -->
     <link rel="stylesheet" type="text/css" href="/assets/css/flaticon.css">
 
+    <script src="/assets/js/jquery-3.4.1.slim.min.js"></script>
+
+    <!-- SweetAlert2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+   
+       <script type="text/javascript">
+           // Alert With Input Type
+       $(document).on('click', '#mauticform_input_contato_submit', function(e) {
+           swal({
+             type: 'success',
+           //   title: 'Cadastro feito com sucesso',
+             html: '<div class="mauticform-message" id="mauticform_contato_message"></div>',
+             confirmButtonText: 'Fechar'
+           })
+       });
+       </script>
+<script type="text/javascript">
+    /** This section is only needed once per page if manually copying **/
+    if (typeof MauticSDKLoaded == 'undefined') {
+        var MauticSDKLoaded = true;
+        var head            = document.getElementsByTagName('head')[0];
+        var script          = document.createElement('script');
+        script.type         = 'text/javascript';
+        script.src          = 'https://tower13.com.br/email/media/js/mautic-form.js';
+        script.onload       = function() {
+            MauticSDK.onLoad();
+        };
+        head.appendChild(script);
+        var MauticDomain = 'https://tower13.com.br/email';
+        var MauticLang   = {
+            'submittingMessage': "Por favor, aguarde..."
+        }
+    }
+</script>
 </head>
 
 <body>
@@ -513,46 +548,79 @@
 
                     </div>
                     <div class="col-lg-8">
-                        <form action="#" class="contact-form wow fadeInUp   animated"
+                        <div id="mauticform_wrapper_contato" class="mauticform_wrapper">
+                            <form class="contact-form wow fadeInUp   animated"
                             data-animation="fadeInDown animated" data-delay=".2s"
-                            style="visibility: visible; animation-name: fadeInUp;">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="contact-field p-relative c-name mb-40">
-                                        <input type="text" placeholder="Digite seu nome">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="contact-field p-relative c-email mb-40">
-                                        <input type="text" placeholder="Digite seu e-mail">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="contact-field p-relative c-selecionar mb-40">
-                                        <select class="">
-                                            <option>Consultórios e Salas Comerciais para Venda</option>
-                                            <option>Consultórios e Salas Comerciais para Locação por Turno</option>
-                                            <option>Consultórios e Salas Comerciais para Locação Mensal</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="contact-field p-relative c-subject mb-40">
-                                        <input type="text" placeholder="Assunto">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="contact-field p-relative c-message mb-45">
-                                        <textarea name="message" id="message" cols="30" rows="10"
-                                            placeholder="Mensagem"></textarea>
-                                    </div>
-                                    <div class="botaoenviar">
-                                        <button class="btn btn-enviarmensagem">Enviar mensagem</button>
+                            style="visibility: visible; animation-name: fadeInUp;" autocomplete="false" role="form" method="post" action="https://tower13.com.br/email/form/submit?formId=1" id="mauticform_contato" data-mautic-form="contato" enctype="multipart/form-data">
+                                <div class="mauticform-error" id="mauticform_contato_error"></div>
+                                <!-- <div class="mauticform-message" id="mauticform_contato_message"></div> -->
+                                <div class="mauticform-innerform">
+                        
+                                    
+                                  <div class="mauticform-page-wrapper mauticform-page-1" data-mautic-form-page="1">
+                                    <div class="col-lg-12">
+                                        <div class="contact-field p-relative c-name mb-40">
+                                    <div id="mauticform_contato_digite_seu_nome" data-validate="digite_seu_nome" data-validation-type="text" class="mauticform-row mauticform-text mauticform-field-1 mauticform-required">
+                                        <!-- <label id="mauticform_label_contato_digite_seu_nome" for="mauticform_input_contato_digite_seu_nome" class="mauticform-label">Digite seu nome</label> -->
+                                        <input id="mauticform_input_contato_digite_seu_nome" name="mauticform[digite_seu_nome]" value="" placeholder="Digite seu nome" class="mauticform-input" type="text">
+                                        <span class="mauticform-errormsg" style="display: none;">Obrigatório</span>
                                     </div>
                                 </div>
                             </div>
-
-                        </form>
+                            <div class="col-lg-12">
+                                <div class="contact-field p-relative c-email mb-40">
+                        
+                                    <div id="mauticform_contato_digite_seu_email" data-validate="digite_seu_email" data-validation-type="email" class="mauticform-row mauticform-email mauticform-field-2 mauticform-required">
+                                        <!-- <label id="mauticform_label_contato_digite_seu_email" for="mauticform_input_contato_digite_seu_email" class="mauticform-label">Digite seu e-mail</label> -->
+                                        <input id="mauticform_input_contato_digite_seu_email" name="mauticform[digite_seu_email]" value="" placeholder="Digite seu e-mail" class="mauticform-input" type="email">
+                                        <span class="mauticform-errormsg" style="display: none;">Obrigatório</span>
+                                    </div>
+                                </div>
+                            </div>
+                                    <div class="col-lg-12">
+                                        <div class="contact-field p-relative c-selecionar mb-40">
+                                    <div id="mauticform_contato_selecione" class="mauticform-row mauticform-select mauticform-field-3">
+                                        <!-- <label id="mauticform_label_contato_selecione" for="mauticform_input_contato_selecione" class="mauticform-label">Selecione</label> -->
+                                        <select id="mauticform_input_contato_selecione" name="mauticform[selecione]" value="" class="mauticform-selectbox">
+                                            <!-- <option value=""></option>                     -->
+                                            <option value="Consultórios e Salas Comerciais para Venda">Consultórios e Salas Comerciais para Venda</option>                    <option value="Consultórios e Salas Comerciais para Locação por Turno">Consultórios e Salas Comerciais para Locação por Turno</option>                    <option value="Consultórios e Salas Comerciais para Locação Mensal">Consultórios e Salas Comerciais para Locação Mensal</option>
+                                        </select>
+                                        <span class="mauticform-errormsg" style="display: none;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                                    <div class="col-lg-12">
+                                        <div class="contact-field p-relative c-subject mb-40">
+                                    <div id="mauticform_contato_assunto" class="mauticform-row mauticform-text mauticform-field-4">
+                                        <!-- <label id="mauticform_label_contato_assunto" for="mauticform_input_contato_assunto" class="mauticform-label">Assunto</label> -->
+                                        <input id="mauticform_input_contato_assunto" name="mauticform[assunto]" value="" placeholder="Assunto" class="mauticform-input" type="text">
+                                        <span class="mauticform-errormsg" style="display: none;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="contact-field p-relative c-message mb-40">
+                                    <div id="mauticform_contato_mensagem" class="mauticform-row mauticform-text mauticform-field-5">
+                                        <!-- <label id="mauticform_label_contato_mensagem" for="mauticform_input_contato_mensagem" class="mauticform-label">Mensagem</label> -->
+                                        <textarea id="mauticform_input_contato_mensagem" name="mauticform[mensagem]" class="mauticform-textarea"></textarea>
+                                        <span class="mauticform-errormsg" style="display: none;"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="botaoenviar">
+                                    <div id="mauticform_contato_submit" class="mauticform-row mauticform-button-wrapper mauticform-field-6">
+                                        <button type="submit" name="mauticform[submit]" id="mauticform_input_contato_submit" value="" class="mauticform-button btn  btn-enviarmensagem">Enviar</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                        
+                                <input type="hidden" name="mauticform[formId]" id="mauticform_contato_id" value="1">
+                                <input type="hidden" name="mauticform[return]" id="mauticform_contato_return" value="">
+                                <input type="hidden" name="mauticform[formName]" id="mauticform_contato_name" value="contato">
+                        
+                                </form>
+                        </div>
                     </div>
                 </div>
 
