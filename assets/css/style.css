@@ -7246,8 +7246,24 @@ td {
 @media (max-width: 667px) and (min-width: 375px){
 .recepcaoamplahome {
     left: 0px !important;
-    flex: 0 0 100%;
+	flex: 0 0 100%;
+	padding: 0px;
     max-width: 1000%;
+}
+.recepcaohome {
+   background: none;
+}
+.imgmobilerecepcao {
+	display: block;
+	width: 100%;
+    margin-top: 12px;
+    border-radius: 5px;
+}
+.titulosalas {
+    width: 100%;
+}
+.subsalas {
+    width: 100%;
 }}
 @media (max-width: 640px) and (min-width: 360px){
 section.choose-area {
