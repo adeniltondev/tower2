@@ -3502,7 +3502,7 @@ div.single-cta:last-child {
     transition: .3s;
     box-shadow: 0 0 5px #d8d8d8;
     border-radius: 5px;
-    /* border: 1px solid #dfdfdf; */
+    border: 1px solid #dfdfdf;
 }
 
 .contact-field select {
@@ -7245,4 +7245,8 @@ td {
     left: 0px !important;
     flex: 0 0 100%;
     max-width: 1000%;
+}}
+@media (max-width: 640px) and (min-width: 360px){
+section.choose-area {
+    height: 951px;
 }}
