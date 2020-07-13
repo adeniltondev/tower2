@@ -6635,13 +6635,22 @@ td {
     }
 
     .boxed-property-column .inner-box .text-outer {
-        position: relative;
-        right: 0px;
-        top: -78px;
-        width: 100%;
-        height: 187px;
-    }
-
+        position: relative !important;
+        right: 0px !important;
+        top: -78px !important;
+        width: 100% !important;
+		height: 187px !important;
+		left: 0 !important;
+	}
+	.boxed-property-column .inner-box .image-outer img {
+		display: block;
+		width: 100% !important;
+		height: 100% !important;
+		margin-bottom: 0px !important;
+	}
+    .tamanhogridretrato {
+		left: 0 !important;
+	}
     .slider-content strong {
         font-weight: 800;
         font-size: 48px;
@@ -7243,6 +7252,7 @@ td {
 .mauticform-pagebreak-wrapper .mauticform-button-wrapper {
     display: inline;
 }
+
 @media (max-width: 667px) and (min-width: 375px){
 .recepcaoamplahome {
     left: 0px !important;
