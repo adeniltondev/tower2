@@ -7291,9 +7291,30 @@ section.choose-area {
 	.boxed-property-column .inner-box .text-outer {
 		position: absolute;
 		right: 0px;
-		top: 0px;
+		width: 48%;
+		height: 73%;
+		top: 79px;
+	}
+	.boxed-property-column .inner-box .image-outer {
+		position: relative;
+		float: left;
 		width: 100%;
-		height: 63%;
+		overflow: hidden;
+		height: 100%;
+	}
+	.boxed-properties .boxed-property-column {
+		position: relative;
+		float: left;
+		width: 100%;
+	}
+	.boxed-property-column .inner-box .image-outer img {
+		display: block;
+		width: 72%;
+		height: 336px;
+		margin-bottom: 12px;
+	}
+	.tamanhogridretrato{
+		left: 361px !important;
 	}
 
 }
