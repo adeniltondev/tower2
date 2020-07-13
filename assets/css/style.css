@@ -7248,7 +7248,7 @@ td {
     left: 0px !important;
 	flex: 0 0 100%;
 	padding: 0px;
-    max-width: 1000%;
+    max-width: 100%;
 }
 .recepcaohome {
    background: none;
@@ -7269,3 +7269,31 @@ td {
 section.choose-area {
     height: 951px;
 }}
+@media (max-width: 812px) and (min-width: 375px){
+	.recepcaoamplahome {
+		left: 0px !important;
+		flex: 0 0 100%;
+		padding: 0px;
+		max-width: 100%;
+	}
+	.recepcaohome {
+		background: none;
+	 }
+	 .imgmobilerecepcao {
+		display: block;
+		width: 100%;
+		margin-top: 12px;
+		border-radius: 5px;
+	}
+	.titulosalas {
+		width: 73%;
+	}
+	.boxed-property-column .inner-box .text-outer {
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		width: 100%;
+		height: 63%;
+	}
+
+}
